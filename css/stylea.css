@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 45px;
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logi {
+    height: 100px;
+    width: 150px;
+    padding-top: -40px;
+}
+section {
+     display: flex;
+}
+.tamanho {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    margin-left: 24px;
+    justify-content: center;
+    height: 40dvh;
+}
+.linha1, .linha2 {
+    display: flex;
+    gap: 10px;
+    margin: 2px;
+    p {
+        width: 35px;
+    height: 35px;
+    background: gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+}
+
+.camisa{
+    margin-left: 20dvh;
+    img {
+        width: 25dvw;
+        height: auto;
+
+        
+    }
+}
